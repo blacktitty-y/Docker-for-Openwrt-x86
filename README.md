@@ -48,5 +48,5 @@ chmod +x docker
 
 
 
-# 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 
+# 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 还是上面自己一步一步来稳妥.
 wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
