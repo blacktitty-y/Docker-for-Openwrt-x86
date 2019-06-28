@@ -1,0 +1,16 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+start(){
+	/usr/sbin/dockerd --config-file=/mnt/sdb1/docker/config/daemon.json --data-root=/mnt/sdb1/docker/data --exec-root=/mnt/sdb1/docker/data/run --iptables=true --ip-masq=true --selinux-enabled=false --ip-forward=true --ip=0.0.0.0 --group root > /dev/null 2>&1 &
+	}
+	
+stop(){
+    killall dockerd
+	}
+	
+restart(){
+	stop
+	start
+}
