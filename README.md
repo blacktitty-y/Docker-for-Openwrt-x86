@@ -42,6 +42,7 @@ Docker-for-Openwrt-x86
 
 
 ### 安装步骤 (根据步骤, 一行一行指令跟着敲)
+
 1. 进入安装Docker目录（PS:根据自己位置更改下面出现的sdb1）
 
     cd /mnt/sdb1
