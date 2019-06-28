@@ -6,9 +6,9 @@ mkdir bin
 mv * bin
 mkdir data config
 cd config
-wget https://gitlab.com/blacktitty/docker-for-openwrt/raw/master/daemon.json
+wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/daemon.json
 ln -s /mnt/sdb1/docker/bin/* /usr/sbin
 cd /etc/init.d
-wget https://gitlab.com/blacktitty/docker-for-openwrt/raw/master/docker
+wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/docker
 chmod +x docker
 ./docker start
