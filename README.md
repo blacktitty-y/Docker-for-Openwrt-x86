@@ -6,7 +6,7 @@ Docker-for-Openwrt-x86
 
 
 
-## PS:首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
+### PS:首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
 	CONFIG_KERNEL_BLK_CGROUP=y
 	CONFIG_KERNEL_CGROUPS=y
 	CONFIG_KERNEL_CGROUP_CPUACCT=y
@@ -44,7 +44,7 @@ Docker-for-Openwrt-x86
 ### 安装步骤 (根据步骤, 一行一行指令跟着敲)
 1. 进入安装Docker目录（PS:根据自己位置更改下面出现的sdb1）
 
-	cd /mnt/sdb1
+		cd /mnt/sdb1
 
 2. 下载Docker并解压 (PS:此处可以自行修改最新版本下载)
 		wget https://download.docker.com/linux/static/stable/x86_64/docker-18.09.7.tgz
