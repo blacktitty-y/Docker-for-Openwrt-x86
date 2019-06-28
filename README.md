@@ -83,7 +83,7 @@ Docker-for-Openwrt-x86
 		./docker start
 
 
-#### 到此结束, Docker安装完毕并且开始运行啦.
+#### 到此结束, Docker安装完毕并且开始运行啦. 以上两个下载文件daemon.json和docker可自行创建, 内容在github上.
 
 
 
