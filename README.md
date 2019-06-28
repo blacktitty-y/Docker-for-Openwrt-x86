@@ -91,4 +91,4 @@ Docker-for-Openwrt-x86
 
 ### 实在嫌上面麻烦的就根据脚本内, 把挂载点修改成自己的就可以啦. 
 
-		wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
+	wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
