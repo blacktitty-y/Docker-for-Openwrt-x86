@@ -17,7 +17,7 @@ mkdir data config
 cd config
 wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/daemon.json
 
-#创建启动项
+#创建启动项并修改文件权限
 cd /etc/init.d
 wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/docker
 chmod +x docker
