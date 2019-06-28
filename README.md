@@ -6,7 +6,7 @@ Docker-for-Openwrt-x86
 
 
 
-###### 首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
+#### PS:首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
 	CONFIG_KERNEL_BLK_CGROUP=y
 	CONFIG_KERNEL_CGROUPS=y
 	CONFIG_KERNEL_CGROUP_CPUACCT=y
