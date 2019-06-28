@@ -49,4 +49,7 @@ chmod +x docker
 
 
 # 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 还是上面自己一步一步来稳妥. 出问题了也好知道是哪里出错啦.
+
+# 实在嫌上面麻烦的就根据脚本内, 把挂载点修改成自己的就可以啦.
+
 wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
