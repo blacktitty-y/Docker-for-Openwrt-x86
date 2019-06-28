@@ -42,6 +42,9 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 		CONFIG_KERNEL_RESOURCE_COUNTERS=y
 		CONFIG_KERNEL_USER_NS=y
 		CONFIG_KERNEL_UTS_NS=y
+		CONFIG_PACKAGE_iptables-mod-extra=y
+		CONFIG_PACKAGE_kmod-ipt-extra=y
+		CONFIG_PACKAGE_kmod-veth=y
 
 
 
