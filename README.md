@@ -31,7 +31,7 @@ cd /etc/init.d
 
 wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/docker
 
-6. 修改启动项为自己的挂载点 (也就是第一步的安装目录)
+6. 修改启动项为自己的挂载点
 
 vi /etc/init.d/docker
 
