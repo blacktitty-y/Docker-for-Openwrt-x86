@@ -1,9 +1,12 @@
-# Docker-for-Openwrt-x86
+Docker-for-Openwrt-x86
+====
 
-##### 本人小白一名, 自己亲身体验到求学路的艰难, 所以特意写了此教程给需要的朋友. 最终实现借鉴于https://blog.csdn.net/wang805447391/article/details/83305276, 再此感谢作者小学生414, 还有ope087两位大佬的帮助. 
+
+#### 本人小白一名, 自己亲身体验到求学路的艰难, 所以特意写了此教程给需要的朋友. 最终实现借鉴于https://blog.csdn.net/wang805447391/article/details/83305276, 再此感谢作者小学生414, 还有ope087两位大佬的帮助. 
 
 
-# 首先是最重要的内核依赖, 编译的时候要记得勾选.
+
+###### 首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
 	CONFIG_KERNEL_BLK_CGROUP=y
 	CONFIG_KERNEL_CGROUPS=y
 	CONFIG_KERNEL_CGROUP_CPUACCT=y
@@ -34,7 +37,6 @@
 	CONFIG_PACKAGE_iptables-mod-extra=y
 	CONFIG_PACKAGE_kmod-ipt-extra=y
 	CONFIG_PACKAGE_kmod-veth=y
-
 
 
 
