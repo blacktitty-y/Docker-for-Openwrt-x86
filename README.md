@@ -100,7 +100,12 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 
 ### 实在嫌上面麻烦的, 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 还是上面自己一步一步来稳妥. 出问题了也好知道是哪里出错.实在嫌上面麻烦的就根据脚本内, 把挂载点修改成自己的就可以啦. 望有会写脚本的大神指点下~
 
+###### 一键安装脚本:
 	wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
+
+###### 一键升级脚本:
+
+	wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/update.sh && bash update.sh && rm -rf update.sh
 
 ### 目前方法方式都不太完善, 但是已经属于一个完整的方案了, 后面会持续更新...
 
