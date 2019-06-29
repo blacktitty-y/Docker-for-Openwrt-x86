@@ -8,9 +8,6 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 
 ### PS:首先是最重要的内核依赖, 需要添加进去. 将下面代码添加到配置好的.config文件最后面, 然后执行make menuconfig命令进入再直接退出保存就可以开始编译啦.
     CONFIG_KERNEL_BLK_CGROUP=y
-    CONFIG_KERNEL_BLK_DEV_THROTTLING=y
-    CONFIG_KERNEL_BLK_DEV_THROTTLING_LOW=y
-    CONFIG_KERNEL_CFQ_GROUP_IOSCHED=y
     CONFIG_KERNEL_CGROUPS=y
     CONFIG_KERNEL_CGROUP_CPUACCT=y
     CONFIG_KERNEL_CGROUP_DEVICE=y
@@ -45,6 +42,8 @@ Docker for Openwrt x86 完美运行~稳定性待测试
     CONFIG_PACKAGE_iptables-mod-extra=y
     CONFIG_PACKAGE_kmod-ipt-extra=y
     CONFIG_PACKAGE_kmod-veth=y
+    CONFIG_PACKAGE_libdevmapper=y
+    CONFIG_PACKAGE_libltdl=y
 
 
 
