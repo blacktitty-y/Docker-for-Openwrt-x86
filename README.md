@@ -2,7 +2,7 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 ====
 
 
-#### 本人小白一名, 自己亲身体验到求学路的艰难, 所以特意写了此教程给需要的朋友, 已经尽量写的很简短详细啦. 最终实现借鉴于https://blog.csdn.net/wang805447391/article/details/83305276, 再此感谢作者小学生414, 还有ope087两位大佬的帮助. 当然最后更要感谢Lean大雕的Openwrt源码啦~
+#### 本人小白一名, 自己亲身体验到求学路的艰难, 所以特意写了此教程给需要的朋友, 已经尽量写的很简短详细啦. 最终实现借鉴于, https://blog.csdn.net/wang805447391/article/details/83305276, https://gitlab.com/mcbridematt/openwrt-container-feed, 再此感谢作者小学生414, ope087,Mu Yu几个大佬们的帮助. 当然最后更要感谢Lean大雕的Openwrt源码啦~
 
 
 
@@ -98,6 +98,8 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 
 ### 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 还是上面自己一步一步来稳妥. 出问题了也好知道是哪里出错.
 
-### 实在嫌上面麻烦的就根据脚本内, 把挂载点修改成自己的就可以啦. 望有会写脚本的大神指点下~
+### 实在嫌上面麻烦的, 以下是我自己随手写的半自动脚本, 也是为了方便自己部署, 高端的也写不来. 自己凑合着用的. 还是上面自己一步一步来稳妥. 出问题了也好知道是哪里出错.实在嫌上面麻烦的就根据脚本内, 把挂载点修改成自己的就可以啦. 望有会写脚本的大神指点下~
 
 	wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
+
+### 后续应该会追加相应的升级, 卸载脚本. 并且可能也会有直接ipk安装的方式.
