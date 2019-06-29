@@ -102,4 +102,6 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 
 	wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/install.sh && bash install.sh && rm -rf install.sh
 
+### 目前方法方式都不太完善, 但是已经属于一个完整的方案了, 后面会持续更新...
+
 ### 后续应该会追加相应的升级, 卸载脚本. 并且可能也会有直接ipk安装的方式.
