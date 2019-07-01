@@ -1,5 +1,5 @@
 #进入安装Docker挂载点（可根据自己位置更改）
-cd /mnt/sda3
+cd /mnt/sdb1
 
 #下载Docker并解压 (此处可以自行修改最新版本下载)
 wget https://download.docker.com/linux/static/stable/x86_64/docker-18.06.3-ce.tgz
@@ -8,7 +8,7 @@ rm -rf docker-18.06.3-ce.tgz
 
 #将执行文件链接到/usr/sbin (路径也需要改成自己的挂载点)
 cd docker
-ln -s /mnt/sda3/docker/* /usr/sbin
+ln -s /mnt/sdb1/docker/* /usr/sbin
 
 #创建Docker相关目录与文件
 mkdir data config
