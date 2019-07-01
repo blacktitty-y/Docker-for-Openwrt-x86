@@ -17,7 +17,7 @@ wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/maste
 
 #创建启动项并修改文件权限 (docker文件内三处挂载点需要修改成自己的)
 cd /etc/init.d
-wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/docker
+wget https://raw.githubusercontent.com/blacktitty-y/Docker-for-Openwrt-x86/master/test/docker
 
 #运行Docker
 chmod +x docker
