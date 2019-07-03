@@ -56,10 +56,10 @@ Docker for Openwrt x86 完美运行~稳定性待测试
 
 		cd /mnt/sdb1
 
-2. 下载Docker并解压 (PS:此处可以自行修改最新版本下载, 注意是下载CE版)
+2. 下载Docker并解压 (PS:目前最新版18.09.7无法运行, 而且CE也无法使用，正在折腾...)
 
-		wget https://download.docker.com/linux/static/stable/x86_64/docker-18.06.3-ce.tgz
-		tar -xzvf docker-18.06.3-ce.tgz
+		wget https://download.docker.com/linux/static/stable/x86_64/docker-18.09.6.tgz
+		tar -xzvf docker-18.09.6.tgz
 
 3. 将执行文件链接到/usr/sbin
 
